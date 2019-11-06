@@ -1,0 +1,14 @@
+{
+  "manifest_version": 2,
+
+  "name": "XSession Tracker",
+  "description": "How long have I been on this page?",
+  "version": "1.0",
+  "author": "rahulma",
+  "browser_action": {},
+  "permissions": ["tabs", "activeTab", "storage"],
+  "background": {
+    "scripts": ["options.js"]
+  },
+  "options_page": "options.html"
+}
